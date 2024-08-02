@@ -24,9 +24,9 @@ $this->need('header.php');
             <?php while ($this->next()): ?>
                 <li class="post relative" itemscope itemtype="http://schema.org/BlogPosting">
                     <a itemprop="url" href="<?php $this->permalink() ?>">
-                        <span class="post-date"><?php $this->date('Y-m-d'); ?></span>
+                        <span class="date"><?php $this->date('Y-m-d'); ?></span>
                         <span class="spliter">»</span>
-                        <span class="post-title" itemprop="name headline"><?php $this->title() ?></span>
+                        <span class="title" itemprop="name headline"><?php $this->title() ?></span>
                     </a>
                 </li>
             <?php endwhile; ?>
