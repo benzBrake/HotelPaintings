@@ -162,6 +162,14 @@ body {
     padding-left: 2rem;
   }
 
+  blockquote {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAYAAABllJ3tAAAAGUlEQVQImWNgYGD4z4AK0Pk4Jf4zMDAwAACFvAP9WQrWlwAAAABJRU5ErkJggg==) repeat;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    padding: 10px;
+  }
+
   &-title {
     font-size: 2em;
   }
